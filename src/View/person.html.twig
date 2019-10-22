@@ -1,0 +1,11 @@
+{% extends 'hello.html.twig' %}
+
+{% block content %}
+<ul class="list-group">
+    {% for person in persons %}
+        {% if person['age'] > 18%}
+            <li class="list-group-item">{{ person['name'] }}</li>
+        {%  endif %}
+    {% endfor %}
+</ul>
+{% endblock %}

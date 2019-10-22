@@ -1,0 +1,6 @@
+{
+    "name": "lucas/twig",
+    "require": {
+        "twig/twig": "^2.12"
+    }
+}
